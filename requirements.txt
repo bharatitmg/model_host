@@ -9,7 +9,7 @@ keras==3.6.0
 markdown-it-py==3.0.0
 MarkupSafe==3.0.2
 mdurl==0.1.2
-ml_dtypes==0.5.1
+ml_dtypes==0.4.1
 namex==0.0.8
 numpy==2.1.2
 optree==0.13.0
