@@ -3,10 +3,10 @@ import os
 import keras
 from huggingface_hub import login
 import numpy as np
-
+from flask_cors import CORS
 
 app = Flask(__name__)
-
+CORS(app)
 # Set Hugging Face API token and log in
 HUGGINGFACE_TOKEN = "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"  # Set this in Railway's environment variables
 login(token=HUGGINGFACE_TOKEN)  # Authenticate with Hugging Face
